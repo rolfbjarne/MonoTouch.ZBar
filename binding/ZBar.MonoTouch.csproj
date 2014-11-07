@@ -52,5 +52,6 @@
     <Compile Include="ZBarSymbolSet.cs" />
     <Compile Include="ZBarImageScanner.cs" />
     <Compile Include="ZBarSDK.cs" />
+    <Compile Include="ZBarSymbol.cs" />
   </ItemGroup>
 </Project>

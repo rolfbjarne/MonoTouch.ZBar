@@ -19,7 +19,7 @@ namespace ZBar
 			
 			while ( symbol != IntPtr.Zero )
 			{
-				yield return new ZBarSymbol(symbol,0);
+				yield return ZBarSymbol.CreateWithSymbol (symbol);
 				symbol = zbar_symbol_next(symbol);
 			}
 		}
