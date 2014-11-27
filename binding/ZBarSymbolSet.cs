@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 
-using MonoTouch.Foundation;
+using Foundation;
 
 namespace ZBar
 {

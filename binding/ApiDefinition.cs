@@ -2,10 +2,10 @@ using System;
 using System.Collections;
 using System.Drawing;
 
-using MonoTouch.CoreGraphics;
-using MonoTouch.ObjCRuntime;
-using MonoTouch.Foundation;
-using MonoTouch.UIKit;
+using CoreGraphics;
+using ObjCRuntime;
+using Foundation;
+using UIKit;
 
 namespace ZBar
 {

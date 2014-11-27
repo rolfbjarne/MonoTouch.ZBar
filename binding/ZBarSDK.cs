@@ -2,9 +2,8 @@ using System;
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-using MonoTouch;
-using MonoTouch.Foundation;
-using MonoTouch.ObjCRuntime;
+using Foundation;
+using ObjCRuntime;
 
 [assembly: AssemblyTitle("ZBar.MonoTouch")]
 [assembly: AssemblyVersion( ZBar.ZBarSDK.iOSZBarVerison + ".0" )]

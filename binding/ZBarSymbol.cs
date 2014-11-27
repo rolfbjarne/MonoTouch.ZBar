@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-using MonoTouch.ObjCRuntime;
+using ObjCRuntime;
 
 namespace ZBar
 {
