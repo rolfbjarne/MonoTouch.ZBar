@@ -121,6 +121,7 @@ namespace ZBar
 	// @protocol ZBarReaderDelegate <UIImagePickerControllerDelegate>
 	[BaseType (typeof (UIImagePickerControllerDelegate))]
 	[Model]
+	[Protocol]
 	interface ZBarReaderDelegate 
 	{
 		// called when no barcode is found in an image selected by the user.
