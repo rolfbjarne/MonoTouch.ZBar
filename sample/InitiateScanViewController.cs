@@ -1,9 +1,9 @@
 using System;
-using MonoTouch.UIKit;
+using UIKit;
 using ZBar;
-using System.Drawing;
+using CoreGraphics;
 using System.Text;
-using MonoTouch.Foundation;
+using Foundation;
 
 namespace ZBar.Sample
 {
@@ -19,7 +19,7 @@ namespace ZBar.Sample
             var width = View.Bounds.Width;
             var scanButton = new UIButton(UIButtonType.RoundedRect)
             {
-                Frame = new RectangleF(50,50,width-100,44),
+                Frame = new CGRect(50,50,width-100,44),
                 AutoresizingMask = UIViewAutoresizing.FlexibleBottomMargin | UIViewAutoresizing.FlexibleLeftMargin | UIViewAutoresizing.FlexibleRightMargin,
             };
             scanButton.SetTitle("Scan", UIControlState.Normal);
@@ -41,7 +41,7 @@ namespace ZBar.Sample
             };
             View.AddSubview(scanButton);
 
-            resultsLabel = new UILabel(new RectangleF(10,110,width-20,200))
+            resultsLabel = new UILabel(new CGRect(10,110,width-20,200))
             {
                 AutoresizingMask = UIViewAutoresizing.FlexibleDimensions,
                 Lines = 0,

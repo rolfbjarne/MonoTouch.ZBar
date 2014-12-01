@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZBar.Sample", "ZBar.Sample.csproj", "{4793242D-716C-406B-9452-C92897D5C243}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZBar.MonoTouch", "..\binding\ZBar.MonoTouch.csproj", "{C6624AC5-328C-442B-ACFB-9D66D71B281F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -25,8 +27,17 @@ Global
 		{4793242D-716C-406B-9452-C92897D5C243}.Release|iPhone.Build.0 = Release|iPhone
 		{4793242D-716C-406B-9452-C92897D5C243}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{4793242D-716C-406B-9452-C92897D5C243}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = ZBar.Sample.csproj
+		{C6624AC5-328C-442B-ACFB-9D66D71B281F}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{C6624AC5-328C-442B-ACFB-9D66D71B281F}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{C6624AC5-328C-442B-ACFB-9D66D71B281F}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{C6624AC5-328C-442B-ACFB-9D66D71B281F}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{C6624AC5-328C-442B-ACFB-9D66D71B281F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{C6624AC5-328C-442B-ACFB-9D66D71B281F}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{C6624AC5-328C-442B-ACFB-9D66D71B281F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{C6624AC5-328C-442B-ACFB-9D66D71B281F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{C6624AC5-328C-442B-ACFB-9D66D71B281F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{C6624AC5-328C-442B-ACFB-9D66D71B281F}.Release|iPhone.Build.0 = Release|Any CPU
+		{C6624AC5-328C-442B-ACFB-9D66D71B281F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{C6624AC5-328C-442B-ACFB-9D66D71B281F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
