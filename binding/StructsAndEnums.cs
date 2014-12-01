@@ -1,4 +1,6 @@
 using System;
+using Foundation;
+using ObjCRuntime;
 
 namespace ZBar
 {
@@ -114,7 +116,8 @@ namespace ZBar
 	//	    ZBAR_CFG_X_DENSITY = 0x100, /**< image scanner vertical scan density */
 	//	    ZBAR_CFG_Y_DENSITY,         /**< image scanner horizontal scan density */
 	//	} zbar_config_t;
-	public enum ZBarConfig
+	[Native]
+	public enum ZBarConfig : ulong
 	{
 		Enabled 	= 0,
 		AddCheck,
@@ -147,7 +150,8 @@ namespace ZBar
 	//	    /** number of modifiers */
 	//	    ZBAR_MOD_NUM,
 	//	} zbar_modifier_t;
-	public enum ZBarModifier
+	[Native]
+	public enum ZBarModifier : ulong
 	{
 		GS1			= 0,
 		AIM,
