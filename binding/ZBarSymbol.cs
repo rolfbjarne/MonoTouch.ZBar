@@ -10,7 +10,7 @@ namespace ZBar
 		internal static ZBarSymbol CreateWithSymbol (IntPtr symbol)
 		{
 			var handle = objc_msgSend (Class.GetHandle (typeof (ZBarSymbol)), Selector.GetHandle ("alloc"));
-			handle = objc_msgSend (handle, Selector.GetHandle ("initWithSymbol:"));
+			handle = objc_msgSend (handle, Selector.GetHandle ("initWithSymbol:"), symbol);
 			var rv = new ZBarSymbol (handle);
 			rv.DangerousRelease ();
 			return rv;
