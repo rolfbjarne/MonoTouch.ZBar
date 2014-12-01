@@ -32,10 +32,8 @@ namespace ZBar.Sample
 
                 // Access the inner ZBarImageScanner to tweak scanner settings.
                 var scanner = barcodeReader.Scanner;
-                // Disable all symbol types.
-                scanner.SetSymbolOption(ZBarSymbolType.All, ZBarConfig.Enabled, 0);
-                // Then for this sample enable just QR.
-                scanner.EnableSymbol(ZBarSymbolType.QRCode);
+                // Enable all symbol types.
+                scanner.SetSymbolOption(ZBarSymbolType.All, ZBarConfig.Enabled, 1);
 
                 PresentViewController(barcodeReader, true, null);
             };
