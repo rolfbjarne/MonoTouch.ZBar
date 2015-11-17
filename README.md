@@ -18,8 +18,8 @@ Otherwise, simply drop the libzbar.a file into the /binding directory and run th
 makefile or open and compile the ZBar.MonoTouch.sln
 
 ## Compiling for iOS-unified
-Simply drop the libzbar.a (make sure it has all supported architecturs `lipo -info libzbar.a.
-It should output Architectures in the fat file: ../.lib/libzbar.a are: armv7 armv7s arm64`
+Simply drop the libzbar.a (make sure it has all supported architecturs `lipo -info libzbar.a`
+It should output `Architectures in the fat file: ../.lib/libzbar.a are: armv7 armv7s arm64`
 
 After that simple type `$make unified` and the output will be located at the same folder as project resides
 
